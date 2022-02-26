@@ -14,7 +14,7 @@
 
 <h2 align="center">Usage</h2>
 
-```console
+```python
 $ python3 log4j-scan.py -h
 [•] CVE-2021-44228 - Apache Log4j RCE Scanner
 [•] Scanner provided by FullHunt.io - The Next-Gen Attack Surface Management Platform.

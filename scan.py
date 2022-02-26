@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-# coding=utf-8
-# ******************************************************************
-# log4j-scan: A generic scanner for Apache log4j RCE CVE-2021-44228
-# Author:
-# Mazin Ahmed <Mazin at FullHunt.io>
-# Scanner provided by FullHunt.io - The Next-Gen Attack Surface Management Platform.
-# Secure your Attack Surface with FullHunt.io.
-# ******************************************************************
+*********************************************************************************************
+#
+#
+# Not made by me, I just copy paste
+# But this is for my own pleasure, I'll include a github nickname later maker of this tool.
+#
+#
+**********************************************************************************************
 
 import argparse
 import random

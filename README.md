@@ -15,11 +15,8 @@
 <h2 align="center">Usage</h2>
 
 ```python
-$ python3 log4j-scan.py -h
-[•] CVE-2021-44228 - Apache Log4j RCE Scanner
-[•] Scanner provided by FullHunt.io - The Next-Gen Attack Surface Management Platform.
-[•] Secure your External Attack Surface with FullHunt.io.
-usage: log4j-scan.py [-h] [-u URL] [-p PROXY] [-l USEDLIST] [--request-type REQUEST_TYPE] [--headers-file HEADERS_FILE] [--run-all-tests] [--exclude-user-agent-fuzzing]
+$ python3 scan.py -h
+usage: scan.py [-h] [-u URL] [-p PROXY] [-l USEDLIST] [--request-type REQUEST_TYPE] [--headers-file HEADERS_FILE] [--run-all-tests] [--exclude-user-agent-fuzzing]
                      [--wait-time WAIT_TIME] [--waf-bypass] [--custom-waf-bypass-payload CUSTOM_WAF_BYPASS_PAYLOAD] [--test-CVE-2021-45046]
                      [--dns-callback-provider DNS_CALLBACK_PROVIDER] [--custom-dns-callback-host CUSTOM_DNS_CALLBACK_HOST] [--disable-http-redirects]
 
@@ -54,14 +51,16 @@ optional arguments:
 
 <h2 align="center">Way of work</h2>
 
-```python
-$ python3 log4j-scan.py -u https://domain.com
+```console
+python3 scan.py -u https://domain.com
 ```
 
 <h2 align="center">Installation</h2>
 
-```python
+```console
 git clone https://github.com/xjusthaxor/log4j.git
-cd log4j
 ```
 
+<h2 align="center">Source&nbsp;🌏:</h2>
+
+> *Source & coded by [fullhunt](https://github.com/fullhunt/log4j-scan). Ok, that's all I can say and good luck with your activities.*

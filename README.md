@@ -51,3 +51,9 @@ optional arguments:
   --disable-http-redirects
                         Disable HTTP redirects. Note: HTTP redirects are useful as it allows the payloads to have a higher chance of reaching vulnerable systems.
 ```
+
+<h2 align="center">Way of work</h2>
+
+```
+$ python3 log4j-scan.py -u https://domain.com
+```

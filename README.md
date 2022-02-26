@@ -54,6 +54,14 @@ optional arguments:
 
 <h2 align="center">Way of work</h2>
 
-```
+```python
 $ python3 log4j-scan.py -u https://domain.com
 ```
+
+<h2 align="center">Installation</h2>
+
+```python
+git clone https://github.com/xjusthaxor/log4j.git
+cd log4j
+```
+
